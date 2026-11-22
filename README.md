@@ -10,6 +10,12 @@ python3 -m http.server 8080
 
 页面位于 `http://127.0.0.1:8080/`。可用鼠标、触摸或方向键切换产品预览。
 
+## 部署
+
+GitHub Pages 从 `main` 分支根目录发布静态文件。`.nojekyll` 让 Pages 直接发布 HTML、CSS、JavaScript 和图片。
+
+[PixelTrace 官网](https://microspotlight.github.io/PixelTrace-WebSite/)
+
 ## 内容维护
 
 - 功能文案、系统要求和截图以 [PixelTrace iOS 仓库](https://github.com/MicroSpotlight/PixelTrace) 中的当前实现为准。
