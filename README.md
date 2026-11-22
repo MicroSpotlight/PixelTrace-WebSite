@@ -20,5 +20,6 @@ GitHub Pages 从 `main` 分支根目录发布静态文件。`.nojekyll` 让 Page
 
 - 功能文案、系统要求和截图以 [PixelTrace iOS 仓库](https://github.com/MicroSpotlight/PixelTrace) 中的当前实现为准。
 - `assets/` 包含 PixelTrace 字标、合成示例照片和使用合成数据拍摄的 iPhone 模拟器截图。
+- `help.html` 提供中英文使用说明和问题反馈入口，供 App 内「帮助与支持」使用。
 - `privacy.html` 为上架前政策草案。正式使用前需确认运营主体联系方式、最终发行版的 SDK 数据实践与 App Store Connect 隐私标签，并发布可公开访问的 URL。
 - App Store 下载地址以实际商店记录为准。

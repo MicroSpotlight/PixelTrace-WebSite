@@ -118,11 +118,9 @@ button { font: inherit; }
   .site-nav { gap: 9px; }
   .site-nav a { font-size: .79rem; }
   .site-nav .language { padding-inline: 9px; }
+  .site-nav a[href="#experience"] { display: none; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
 .feature-tabs[hidden] + .feature-panels { grid-column: 1 / -1; border-inline-start: 0; }
-@media (max-width: 360px) {
-  .site-nav a[href="#experience"] { display: none; }
-}
