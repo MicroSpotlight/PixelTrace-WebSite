@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101917">
+  <meta name="description" content="PixelTrace 读取授权照片的拍摄时间、地点和设备信息，生成可浏览、筛选和分享的影像轨迹。">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="PixelTrace · 像素轨迹">
+  <meta property="og:description" content="PixelTrace 读取授权照片的拍摄时间、地点和设备信息，生成可浏览、筛选和分享的影像轨迹。">
+  <title>PixelTrace · 像素轨迹</title>
+  <link rel="icon" href="assets/pixeltrace-mark.png" type="image/png">
+  <link rel="alternate" href="en.html" hreflang="en">
+  <link rel="stylesheet" href="styles.css">
+  <script src="experience.js" defer></script>
+</head>
+<body>
+  <a class="skip cta" href="#content">跳至正文</a>
+  <header class="site-header">
+    <div class="shell site-header__inner">
+      <a class="brand" href="index.html"><img src="assets/pixeltrace-mark.png" width="31" height="31" alt="">PixelTrace</a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="#experience">体验</a>
+        <a href="privacy.html">隐私</a>
+        <a class="language" href="en.html" hreflang="en" lang="en">EN</a>
+      </nav>
+    </div>
+  </header>
+  <main id="content">
+    <section class="hero">
+      <div class="shell hero__inner">
+        <div>
+          <div class="eyebrow">像素轨迹 · iOS 影像记录</div>
+          <h1><span>每张照片，</span><span>都有迹可循。</span></h1>
+          <p class="hero__intro">PixelTrace 把相册里散落的时间、地点和设备连成影像轨迹。沿着照片留下的线索，回看那一天。</p>
+          <div class="hero__actions">
+            <a class="cta" href="#experience">探索影像轨迹 <span aria-hidden="true">↓</span></a>
+            <span class="hero__compat">iPhone 和 iPad · iOS 15+</span>
+          </div>
+        </div>
+        <figure class="hero__visual">
+          <div class="hero__scene" aria-hidden="true"><img src="assets/izu-river.webp" width="500" height="500" alt=""></div>
+          <div class="device hero__phone"><img src="assets/trails.jpg" width="552" height="1200" fetchpriority="high" alt="PixelTrace iPhone 界面，展示伊豆半岛的照片采样点和影像轨迹"></div>
+          <figcaption>伊豆半岛 · 影像轨迹示例</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section id="experience" class="experience">
+      <div class="shell">
+        <div class="experience__heading">
+          <h2>用照片，重新走一遍。</h2>
+          <p>从地图找到拍下照片的地方，从时间线回到拍摄的那一刻。</p>
+        </div>
+        <div class="experience__body">
+          <div class="feature-tabs" role="tablist" aria-label="产品体验" data-feature-tabs hidden>
+            <button id="tab-trails" type="button" role="tab" aria-controls="panel-trails"><span>轨迹地图</span><span aria-hidden="true">→</span></button>
+            <button id="tab-timeline" type="button" role="tab" aria-controls="panel-timeline"><span>时间线</span><span aria-hidden="true">→</span></button>
+            <button id="tab-photo" type="button" role="tab" aria-controls="panel-photo"><span>全屏照片</span><span aria-hidden="true">→</span></button>
+            <button id="tab-poster" type="button" role="tab" aria-controls="panel-poster"><span>轨迹海报</span><span aria-hidden="true">→</span></button>
+          </div>
+          <div class="feature-panels">
+            <section class="feature-panel" role="tabpanel" id="panel-trails" aria-labelledby="tab-trails" tabindex="0">
+              <div><h3>把拍照地点连起来。</h3><p>地图按拍摄顺序连接带 GPS 的照片。同一地点拍下的照片会聚在一起，轻点采样点就能回看。</p></div>
+              <div class="device"><img src="assets/trails.jpg" width="552" height="1200" loading="lazy" alt="轨迹地图和旅程卡片"></div>
+            </section>
+            <section class="feature-panel" role="tabpanel" id="panel-timeline" aria-labelledby="tab-timeline" tabindex="0">
+              <div><h3>从任何一天找起。</h3><p>按日、月或旅程浏览照片，再用拍摄时间、设备、地点与 GPS 条件缩小范围。</p></div>
+              <div class="device"><img src="assets/timeline.jpg" width="552" height="1200" loading="lazy" alt="按日期分组的照片时间线"></div>
+            </section>
+            <section class="feature-panel" role="tabpanel" id="panel-photo" aria-labelledby="tab-photo" tabindex="0">
+              <div><h3>看见一张照片的细节。</h3><p>全屏翻阅与缩放照片。向上滑动查看拍摄时间、相机参数和地点小地图。</p></div>
+              <div class="device"><img src="assets/photo.jpg" width="552" height="1200" loading="lazy" alt="全屏照片及拍摄设备和坐标信息"></div>
+            </section>
+            <section class="feature-panel" role="tabpanel" id="panel-poster" aria-labelledby="tab-poster" tabindex="0">
+              <div><h3>把这段旅程带走。</h3><p>在三款海报中选择一种，把影像轨迹、照片数量和拍摄设备导出成 1080 × 1440 PNG。</p></div>
+              <div class="device"><img src="assets/poster.jpg" width="552" height="1200" loading="lazy" alt="夜色坐标海报预览与 PNG 分享按钮"></div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="privacy-strip">
+      <div class="shell privacy-strip__inner">
+        <h2>你来决定照片的访问范围。</h2>
+        <div><p>相册授权可随时到系统设置调整。轨迹、筛选与照片元数据在设备上处理。</p><a href="privacy.html">隐私政策</a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="shell footer__inner"><p>PixelTrace · 每张照片，都有迹可循。</p><a href="privacy.html">隐私政策</a></div>
+  </footer>
+</body>
+</html>

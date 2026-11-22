@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101917">
+  <meta name="description" content="PixelTrace turns capture dates, locations and camera information from your authorized photos into journeys you can browse, filter and share.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="PixelTrace · Photo journeys for iOS">
+  <meta property="og:description" content="PixelTrace turns capture dates, locations and camera information from your authorized photos into journeys you can browse, filter and share.">
+  <title>PixelTrace · Photo journeys for iOS</title>
+  <link rel="icon" href="assets/pixeltrace-mark.png" type="image/png">
+  <link rel="alternate" href="index.html" hreflang="zh-Hans">
+  <link rel="stylesheet" href="styles.css">
+  <script src="experience.js" defer></script>
+</head>
+<body>
+  <a class="skip cta" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="shell site-header__inner">
+      <a class="brand" href="en.html"><img src="assets/pixeltrace-mark.png" width="31" height="31" alt="">PixelTrace</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#experience">Explore</a>
+        <a href="privacy.html#en">Privacy</a>
+        <a class="language" href="index.html" hreflang="zh-Hans" lang="zh-Hans">中文</a>
+      </nav>
+    </div>
+  </header>
+  <main id="content">
+    <section class="hero">
+      <div class="shell hero__inner">
+        <div>
+          <div class="eyebrow">PHOTO JOURNEYS FOR iOS</div>
+          <h1><span>Every photo</span><span>leaves a trace.</span></h1>
+          <p class="hero__intro">PixelTrace connects the dates, places and cameras in your photo library. Follow a photo journey back to the day it happened.</p>
+          <div class="hero__actions">
+            <a class="cta" href="#experience">Explore photo journeys <span aria-hidden="true">↓</span></a>
+            <span class="hero__compat">iPhone and iPad · iOS 15+</span>
+          </div>
+        </div>
+        <figure class="hero__visual">
+          <div class="hero__scene" aria-hidden="true"><img src="assets/izu-river.webp" width="500" height="500" alt=""></div>
+          <div class="device hero__phone"><img src="assets/trails.jpg" width="552" height="1200" fetchpriority="high" alt="PixelTrace on iPhone, showing photo stops and a journey on the Izu Peninsula"></div>
+          <figcaption>Izu Peninsula · Sample photo journey</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section id="experience" class="experience">
+      <div class="shell">
+        <div class="experience__heading">
+          <h2>Follow the photos back.</h2>
+          <p>Start with the places you photographed, or return to the moment in your timeline.</p>
+        </div>
+        <div class="experience__body">
+          <div class="feature-tabs" role="tablist" aria-label="Product features" data-feature-tabs hidden>
+            <button id="tab-trails" type="button" role="tab" aria-controls="panel-trails"><span>Journey map</span><span aria-hidden="true">→</span></button>
+            <button id="tab-timeline" type="button" role="tab" aria-controls="panel-timeline"><span>Timeline</span><span aria-hidden="true">→</span></button>
+            <button id="tab-photo" type="button" role="tab" aria-controls="panel-photo"><span>Full-screen photos</span><span aria-hidden="true">→</span></button>
+            <button id="tab-poster" type="button" role="tab" aria-controls="panel-poster"><span>Journey posters</span><span aria-hidden="true">→</span></button>
+          </div>
+          <div class="feature-panels">
+            <section class="feature-panel" role="tabpanel" id="panel-trails" aria-labelledby="tab-trails" tabindex="0">
+              <div><h3>See where you took each photo.</h3><p>Photos with GPS form a route in capture order. Nearby shots group into stops you can tap to revisit.</p></div>
+              <div class="device"><img src="assets/trails.jpg" width="552" height="1200" loading="lazy" alt="Journey map with photo stops and a journey card"></div>
+            </section>
+            <section class="feature-panel" role="tabpanel" id="panel-timeline" aria-labelledby="tab-timeline" tabindex="0">
+              <div><h3>Start with a day you remember.</h3><p>Browse by day, month or journey, then narrow the view by date, camera, area or GPS availability.</p></div>
+              <div class="device"><img src="assets/timeline.jpg" width="552" height="1200" loading="lazy" alt="Photo timeline grouped by capture date"></div>
+            </section>
+            <section class="feature-panel" role="tabpanel" id="panel-photo" aria-labelledby="tab-photo" tabindex="0">
+              <div><h3>Look closer at a photo.</h3><p>Swipe or zoom in full screen. Swipe up for the capture date, camera settings and a map of where you took it.</p></div>
+              <div class="device"><img src="assets/photo.jpg" width="552" height="1200" loading="lazy" alt="Full-screen photograph with camera and GPS information"></div>
+            </section>
+            <section class="feature-panel" role="tabpanel" id="panel-poster" aria-labelledby="tab-poster" tabindex="0">
+              <div><h3>Take the journey with you.</h3><p>Choose from three posters and export the route, photo count and camera information as a 1080 × 1440 PNG.</p></div>
+              <div class="device"><img src="assets/poster.jpg" width="552" height="1200" loading="lazy" alt="Night Coordinates poster preview and PNG share button"></div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="privacy-strip">
+      <div class="shell privacy-strip__inner">
+        <h2>Choose which photos PixelTrace can see.</h2>
+        <div><p>You can change photo access in iOS Settings. Journey calculations, filtering and photo metadata are processed on your device.</p><a href="privacy.html#en">Privacy policy</a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="shell footer__inner"><p>PixelTrace · Every photo leaves a trace.</p><a href="privacy.html#en">Privacy policy</a></div>
+  </footer>
+</body>
+</html>
